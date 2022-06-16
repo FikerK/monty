@@ -12,6 +12,7 @@ void _ops(char *op, stack_t **stack, unsigned int lnum)
 	instruction_t valid_ops[] = {
 		{"push", _push},
 		{"pall", _pall},
+		{"pint", _pint},
 		{NULL, NULL}
 	};
 
