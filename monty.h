@@ -62,6 +62,7 @@ void _push(stack_t **stack, unsigned int lnum);
 void _pall(stack_t **stack, unsigned int lnum);
 void _pint(stack_t **stack, unsigned int lnum);
 void _pop(stack_t **stack, unsigned int lnum);
+void _swap(stack_t **stack, unsigned int lnum);
 void _ops(char *op, stack_t **stack, unsigned int lnum);
 void free_lptr(int status, void *arg);
 void free_stack(int status, void *arg);

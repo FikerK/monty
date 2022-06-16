@@ -14,6 +14,7 @@ void _ops(char *op, stack_t **stack, unsigned int lnum)
 		{"pall", _pall},
 		{"pint", _pint},
 		{"pop", _pop},
+		{"swap", _swap},
 		{NULL, NULL}
 	};
 
